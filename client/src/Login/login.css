@@ -1,0 +1,172 @@
+.loginDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* height: 100%; */
+    /* border: 1px solid red; */
+    position: relative;
+
+}
+
+.imgHolder {
+    width: 200px;
+    height: 200px;
+    background: #EFEFEF 0% 0% no-repeat padding-box;
+    /* opacity: 1; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.Ic_user {
+    width: 100px;
+    height: 100px;
+    background: #EFEFEF 0% 0% no-repeat padding-box;
+}
+
+.WelcomeHeading {
+    /* border: 1px solid red; */
+    color: #0B3558;
+    font: normal normal bold 64px/87px Open Sans;
+    margin: 0;
+    margin-bottom: 12px;
+
+}
+
+.miniHeading {
+    margin: 0;
+
+    /* border: 1px solid red; */
+    width: 388px;
+    height: 54px;
+    text-align: center;
+    font: normal normal normal 20px/27px Open Sans;
+    color: #0B3558;
+    margin-bottom: 32px;
+}
+
+.credentialDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.credentialDiv input {
+    width: 500px;
+    height: 55px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    margin: 16px 0px;
+    font: normal normal 600 20px/27px Open Sans;
+}
+
+.forgetPassDiv {
+    /* width: 500px; */
+    text-align: end;
+    /* border: 1px solid red; */
+    margin-bottom: 24px;
+
+
+}
+
+.forgetPassDiv h1 {
+
+    width: 500px;
+    height: 33px;
+    margin: 0px;
+
+    font: normal normal 600 24px/33px Open Sans;
+    font-weight: semibold;
+    letter-spacing: 0px;
+    color: #003FB9;
+    /* border: 1px solid red; */
+    opacity: 1;
+}
+
+.signIn {
+    width: 500px;
+    height: 61px;
+    background: #003FB9 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    font: normal normal 600 24px/33px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+
+}
+
+.footer {
+    display: flex;
+    position: absolute;
+    bottom: 100px;
+    /* top:; */
+    justify-content: space-around;
+    width: 1640px;
+    height: 27px;
+}
+
+.poweredBy {
+    display: flex;
+    height: 150px;
+    font: normal normal normal 20px/27px Open Sans;
+    color: #728391;
+
+
+}
+
+.poweredBy img {
+    /* border: 1px solid yellow; */
+    width: 100px;
+    height: 23px;
+    margin-left: 12px;
+
+}
+
+.textPower {
+
+    margin: 0;
+    height: 270px;
+    font: normal normal normal 20px/27px Open Sans;
+    color: #728391;
+    opacity: 1;
+}
+
+.service h1 {
+    margin: 0;
+    text-align: left;
+    font: normal normal 600 20px/27px Open Sans;
+    color: #003FB9;
+    opacity: 1;
+
+}
+
+.privacyText span {
+
+    color: #A2A2A2;
+}
+
+.service {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    width: 350px;
+
+}
+
+
+
+
+
+
+
+
+::placeholder {
+
+    text-align: left;
+    font: normal normal normal 20px/27px Open Sans;
+    letter-spacing: 0px;
+    color: #A2A2A2;
+    /* margin-left: 300px; */
+    padding-left: 10px;
+}
